@@ -1,17 +1,22 @@
-<h2>Por Capital</h2>
-<hr>
+<div  class="animate__animated animate__fadeIn animate__faster">
 
-<div class="row">
-    <div class="col">
-        <app-pais-input
-         (onEnter)="buscar( $event )"
-         (onDebounce)=" sugerencias( $event )"
-          placeHolder="Por Capital..."></app-pais-input>
+    <h2>Por Capital</h2>
+    <hr>
+    
+    <div class="row">
+        <div class="col">
+            <app-pais-input
+             (onEnter)="buscar( $event )"
+             (onDebounce)=" sugerencias( $event )"
+              placeHolder="Por Capital..."></app-pais-input>
+        </div>
+    
     </div>
-
+    
+    <hr>
+    
 </div>
 
-<hr>
 
     <div
      class="alert alert-danger"
